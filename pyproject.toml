@@ -1,0 +1,17 @@
+[project]
+name = "rag-medical-assistent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "pavankumarb26", email = "boddepallipavankumar2@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+rag-medical-assistent = "rag_medical_assistent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
